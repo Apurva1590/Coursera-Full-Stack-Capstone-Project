@@ -1,0 +1,94 @@
+
+.container {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+header.col-md-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#phone {
+  background: linear-gradient(45deg, #435171, #ccc);
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 3px 3px 3px #000;
+  width: 250px;
+}
+
+#phoneDialPad button {
+  border-radius: 50%;
+  background: linear-gradient(180deg, white, lightgray);
+}
+
+#phoneDialPad button:hover {
+  color: green;
+}
+
+#phoneCtrlButtons {
+  margin-top: 10px;
+}
+
+#phoneCtrlButtons button {
+  border-radius: 5px;
+  background: linear-gradient(180deg, white, lightgray);
+}
+
+#phoneCtrlButtons button:hover {
+  color: blue;
+}
+
+#phoneDisplay {
+  height: 100px;
+  background: linear-gradient(45deg, white, gray);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+}
+
+#orangeBar {
+  background-image: url('images/cyberbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+#headerName {
+  background-color: black;
+  opacity: 0.7;
+  margin-top: 20px;
+}
+
+#headerName h1 {
+  color: white;
+  text-shadow: 1px 1px 1px #000;
+}
+
+#homeBtn {
+  color: green;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  height: 80px;
+  margin-top: 25px;
+  padding-top: 10px;
+}
+
+tr i {
+  color: green;
+}
